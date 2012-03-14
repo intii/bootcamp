@@ -32,11 +32,18 @@ body
 		font-weight:bold;
 		float:right;
 	}
+#middle 
+        {
+                height:400px;
+                width:500px;
+                float: right;
+        }
 #leftspace
 	{
 		height:400px;
 		width:300px;
 		float:left;
+                padding-top: 150px;
 	}
 #newsfeed
 	{
@@ -56,11 +63,9 @@ body
             margin-top: 20px;
     
         }
-#btday1
+.btday1
         {
             height: 50px;
             width: 100px;
-            margin-left: 200px;
-            margin-top: 160px;
-    
+            margin-left: 150px;
         }

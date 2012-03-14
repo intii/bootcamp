@@ -9,7 +9,7 @@
 <body>	    
 <div id="header">
 <img src="images/header.png"/>
-<form action="api/dispatcher.php" method="get" id="subform">
+<form  id="subform">
 <input type="text" name="fname" id="alias"/>
 </form>
 </div>
@@ -19,10 +19,14 @@
 </div>
 <div id="leftspace">
 <form>
-    <input type="button" value="button1" id="btday1" onclick="submitText()">
+    <input type="button" value="button1" class="btday1" onclick="submitText()">
+    </br></br>    
+    <input type="button" value="movies" class="btday1" onclick="getMovies()">    
 </br></br>
 </form>
 </div>
+<div id="middle">
+</div>    
 </div>
 <div id="newsfeed">
 </div>
