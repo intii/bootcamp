@@ -28,18 +28,24 @@ function submitText(){
 function getMovies(){
     $.ajax({
         url: "api/dispatcher.php",
+        contentType: "application/json",
         data: {service: 'movie.getTop'},
         dataType: "json",
         success: function(data){
-            $.each(data.X, function(i,data){
-                var title= data.ShortName;
-                var year= data.ReleaseYear;
-                var syno= data.ShortSynopsis;
-                var all= title + "</br>" + year + "</br>" + syno;
-                $("#middle").html(all);
-            })
+            var JSONobject= eval(data);
+            for (var i = 0 ; i < 12; i++) {
+                var t= setTimeout(showMovie(JSONobject,i),2500);
+            };
         }
     });
+}
+function showMovie(JSONobject,i){
+    var title= JSONobject[i].ShortName;
+    var year= JSONobject[i].ReleaseYear;
+    var syno= JSONobject[i].ShortSynopsis;
+    var img= JSONobject[i].BoxArt.SmallUrl;
+    var all= "<img src='"+img+"'/>"+title + "</br>" + year + "</br>" + syno;
+    $("#middle").html(all);  
 }
 
 
