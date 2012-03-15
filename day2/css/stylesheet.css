@@ -13,13 +13,15 @@ body
 		border-width:1px;
 		border-left-width:0px;
 		border-right-width:0px;
-		padding:10px;
+		padding-top:10px;
 		height:400px;
 		background-image:url(../images/backg2.jpg);
 	}
 #footer
 	{
 		height:100px;
+                text-align: center;
+                padding-top: 5px;
 		background-image:url(../images/top.jpg);
 	}
 #righttext
@@ -40,10 +42,9 @@ body
         }
 #leftspace
 	{
-		height:400px;
-		width:300px;
+		
 		float:left;
-                padding-top: 150px;
+                
 	}
 #newsfeed
 	{
@@ -53,7 +54,7 @@ body
 	
 #subform
 	{
-		float:right;
+		float:left;
 		margin-top: 30px;
 		margin-right: 20px;
 	}
@@ -68,4 +69,8 @@ body
             height: 50px;
             width: 100px;
             margin-left: 150px;
+        }
+.logo   
+        {
+            float: left;
         }

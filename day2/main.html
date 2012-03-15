@@ -1,38 +1,47 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen" />
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
-    <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
     <title>Test WebPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
 </head>
-<body>	    
-    <div id="header">
-        <img src="images/header.png"/>
-        <form  id="subform">
-            <input type="text" name="fname" id="alias"/>
-        </form>
+<body>	  
+    <div data-rol="page">
+    <div id="header" data-rol="ḧeader">
+        <h1>HTML5 Bootcamp<h1>
+        <div data-role="navbar">
+        <ul>
+            <li><a href="main.html" class="ui-btn-active">Home</a></li>
+            <li><a href="page2.html">Page One</a></li>
+            <li><a href="page3.html">Page Two</a></li>
+            <li><a href="page4.html">Page Three</a></li>
+        </ul>
+        </div><!-- /navbar -->        
     </div>
-    <div id="content">
-        <div id="righttext">
-            <p>Welcome to the test page made for HTML5 Bootcamp by Globant.</p>
-        </div>
-        <div id="leftspace">
+    <div id="content" data-rol="content">
+        <div id="leftspace" data-rol="content">
             <form>
-                <input type="button" value="button1" class="btday1" onclick="submitText()">
-                </br></br>    
-                <input type="button" value="movies" class="btday1" onclick="getMovies()">    
+                <input type="text" name="fname" id="alias"/>
                 </br></br>
+                <input type="button" value="button1" class="btday1" onclick="submitText()">
+                </br>
             </form>
         </div>
-        <div id="middle">
+        <div id="righttext" data-rol="content">
+            <p>Welcome to the test page made for HTML5 Bootcamp by Globant.</p>
+        </div>
+        <div id="middle" data-rol="content">
         </div>    
     </div>
-    <div id="newsfeed">
+    <div id="newsfeed" data-rol="footer">
     </div>
-    <div id="footer">
+    <div id="footer" data-rol="footer">
+        <p>HTML5 Bootcamp - Inti Piolanti</p>
+    </div>
     </div>
 </body>
 </html>
