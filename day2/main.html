@@ -5,13 +5,12 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
-    <script type="text/javascript" src="scripts/script.js"></script>
     <title>Test WebPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
 </head>
 <body>	  
-    <div data-rol="page">
-    <div id="header" data-rol="ḧeader">
+    <div data-role="page">
+    <div id="header" data-role="ḧeader">
         <h1>HTML5 Bootcamp<h1>
         <div data-role="navbar">
         <ul>
@@ -22,26 +21,26 @@
         </ul>
         </div><!-- /navbar -->        
     </div>
-    <div id="content" data-rol="content">
-        <div id="leftspace" data-rol="content">
+    <div id="content" data-role="content">
+        <div id="leftspace" data-role="content">
             <form>
                 <input type="text" name="fname" id="alias"/>
                 </br></br>
-                <input type="button" value="button1" class="btday1" onclick="submitText()">
+                <input type="button" value="button1" id="btday1">
                 </br>
             </form>
+            <a href="pages/sample1.php" data-role="button">To Sample1</a>
         </div>
-        <div id="righttext" data-rol="content">
+        <div id="righttext" data-role="content">
             <p>Welcome to the test page made for HTML5 Bootcamp by Globant.</p>
-        </div>
-        <div id="middle" data-rol="content">
-        </div>    
+        </div>  
     </div>
-    <div id="newsfeed" data-rol="footer">
+    <div id="newsfeed">
     </div>
-    <div id="footer" data-rol="footer">
+    <div id="footer">
         <p>HTML5 Bootcamp - Inti Piolanti</p>
     </div>
     </div>
+    <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>
