@@ -1,0 +1,14 @@
+var profile=
+		{
+			"name" : "Inti Piolanti",
+			"descr" : "Estudiante en Universidad Nacional del Centro de la Provincia de Buenos Aires",
+			"country" : "Argentina",
+			"spec" : "Application developer",
+			"educ" : "4th year System Engineering",
+			"workexp": 	[
+							"Student at UNICEN",
+							"Student at Illia HIghschool",
+							"Student at Escuela N 47",
+							"Student at Jardin Municipal 24"
+						]
+		};
