@@ -12,7 +12,7 @@ var Actor= function(_name){
 		setAge: function(_age){
 			age=_age;
 		},
-		setBiograpyh: function(_bio){
+		setBiography: function(_bio){
 			biography=_bio;
 		},
 		getBiography: function(){

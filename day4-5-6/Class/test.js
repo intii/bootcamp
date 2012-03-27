@@ -1,0 +1,10 @@
+dh1= Object.create(Movie);
+dh1.setTitle("Die Hard 1");
+dh2= new DownloadableMovie();
+dh2.setTitle("Die Hard 2");
+MovieObserver.subscribe("play",PlayHandler);
+MovieObserver.subscribe("stop",StopHandler);
+dh1.play();
+dh1.stop();
+dh1.setCast(["Bruce Willis","Inti Piolanti","Jessica Alba"]);
+dh1.getCast();
