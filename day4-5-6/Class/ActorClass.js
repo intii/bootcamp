@@ -1,22 +1,26 @@
-var Actor= function(_name){
-	var name=_name;
-	var age;
-	var biography;
-	return {
-		getName: function(){
-			return name;
+var Actor= (function(){
+	var Actor=function(_name,_age){
+		this.name= _name;
+		this.age=_age;
+		this.biography="No biography";
+
+		this.getName= function(){
+			return this.name;
 		},
-		getAge: function(){
-			return age;
+		this.getAge= function(){
+			return this.age;
 		},
-		setAge: function(_age){
-			age=_age;
+		this.setAge= function(_age){
+			this.age=_age;
 		},
-		setBiography: function(_bio){
-			biography=_bio;
+		this.setBiography= function(_bio){
+			this.biography=_bio;
 		},
-		getBiography: function(){
-			return biography;
+		this.getBiography= function(){
+			return this.biography;
 		}
 	};
-}();
+	return function(_name,_age){
+		return new Actor(_name,_age);
+	};
+})();
