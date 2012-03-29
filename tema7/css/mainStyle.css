@@ -1,0 +1,50 @@
+@media screen and (min-width: 1200px) {
+	#text
+	{
+		-moz-column-count: 4;
+		-moz-column-gap: 20px;
+		-webkit-column-count: 4;
+		-webkit-column-gap: 20px;
+		column-count: 4;
+		column-gap: 20px;
+	}
+	#imgs img
+	{
+		width: 60%;
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+	#text
+	{
+		-moz-column-count: 3;
+		-moz-column-gap: 20px;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 20px;
+		column-count: 3;
+		column-gap: 20px;
+	}
+	#imgs img
+	{
+		width: 30%;
+		float: left;
+		margin: 1%;
+	}
+}
+@media screen and (max-width: 800px) {
+	#imgs img
+	{
+		width: 0;
+	}
+}	
+footer
+{
+	text-align: center;
+}
+#imgs 
+{
+	margin-left: 20%;
+}
+#text
+{
+	text-align: justify;
+}

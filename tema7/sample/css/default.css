@@ -1,0 +1,148 @@
+/* 
+    Document   : default
+    Created on : DATE
+    Author     : YOU <your@email>
+    Description:
+        CSS3 playground
+*/
+body
+{
+	text-align: justify;
+	padding: 5px;
+}
+header #logo img
+{
+	width: 7%;
+	float: left;
+}
+header
+{
+	height: 97px;
+	background-image: url(imgs/top.jpg);
+	margin-bottom: 5px;
+	padding-top: 3px;
+	
+}
+nav
+{
+	margin-top:2px;
+	width:auto;
+	position: relative;
+}
+video
+{
+	float:left;
+	margin-right: 10px;
+}
+.mainContent article:nth-child(2) 
+{
+
+	position:relative;
+	margin-top: 80px;
+}
+
+footer
+{
+	text-align:center;
+}
+/*
+/ --Excercise 5c
+*/
+#menu li 
+{
+	font-family: Verdana;
+	font-size: 150%;
+	border-left-style: solid;
+	border-right-style: solid;
+	display: inline;
+	margin: 2px;
+}
+/*
+/ --Excercise 5b
+*/
+#menu li a:hover
+{
+	background-color:#3399FF;
+}
+
+/*
+/ --Excercise 5 e
+*/
+.hiOne
+{
+	background-color:#CC0033;	
+}
+.hiTwo
+{
+	background-color:#0099FF;	
+}
+.hiThree
+{
+	background-color:#66CC66;	
+}
+/*
+/ --Excercise 5 f
+*/
+span[class^="hi"]
+{
+	background-color:#FF33CC;	
+}
+/*
+/ --Excercise 5 g
+*/
+span[class$="One"]
+{
+	background-color:#00FF00;	
+}
+/*
+/ --Excercise 5 h (Remove previous styple applied to spans)
+*/
+span[class^="hi"],
+span[class^="low"]
+{
+	background-color:white; /*is this ok?*/
+}
+/*
+/ --Excercise 5 i 
+*/
+header p a:nth-child(2)
+{
+	color: #FF33CC;
+}
+
+header p a:nth-child(3)
+{
+	color: #3399FF;
+}
+/*
+/ --Excercise 5 j
+*/
+p:empty
+{
+	display: none;
+}
+/*
+/ --Excercise 5 k
+*/
+article
+{
+	
+	-moz-box-shadow: 10px 10px 10px #888; /* Firefox */
+  	-webkit-box-shadow: 10px 10px 10px #888; /* Safari, Chrome */
+  	box-shadow: 10px 10px 10px #888; /* CSS3 */
+}
+article:nth-child(1)
+{
+	height:360px;
+}
+/*
+/ --Excercise 5 l
+*/
+aside
+{
+	margin-top:40px;
+	-moz-transform: rotate(2deg); /* FF3.5+ */
+	-o-transform: rotate(2deg); /* Opera 10.5 */
+	-webkit-transform: rotate(2deg); /* Saf3.1+, Chrome */
+	-ms-transform: rotate(2deg); /* IE9 */
+}
