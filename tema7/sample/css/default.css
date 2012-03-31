@@ -27,22 +27,17 @@ nav
 {
 	margin-top:2px;
 	width:auto;
-	position: relative;
 }
 video
 {
 	float:left;
 	margin-right: 10px;
 }
-.mainContent article:nth-child(2) 
-{
-
-	position:relative;
-	margin-top: 80px;
-}
 
 footer
 {
+	margin:2%;
+	float:left;
 	text-align:center;
 }
 /*
@@ -126,21 +121,29 @@ p:empty
 */
 article
 {
-	
+	padding:4px;
+	position: relative;
 	-moz-box-shadow: 10px 10px 10px #888; /* Firefox */
   	-webkit-box-shadow: 10px 10px 10px #888; /* Safari, Chrome */
   	box-shadow: 10px 10px 10px #888; /* CSS3 */
+  	width:600px;
 }
 article:nth-child(1)
 {
-	height:360px;
+	float:left;
+	height:752px;
+
+}
+article:nth-child(2)
+{
+	float:right;
 }
 /*
 / --Excercise 5 l
 */
 aside
 {
-	margin-top:40px;
+	float:left;
 	-moz-transform: rotate(2deg); /* FF3.5+ */
 	-o-transform: rotate(2deg); /* Opera 10.5 */
 	-webkit-transform: rotate(2deg); /* Saf3.1+, Chrome */
