@@ -1,0 +1,67 @@
+#area
+{
+	width:30%;
+	height:120px;
+	margin:2% 2% 2% 5%;
+	float:left;
+
+
+}
+#callButton
+{
+	width:20%;
+	float:left;
+	margin: 2% 0% 0% 0%;
+}
+#content, #dragdrop, #geoloc,#workerDiv,#wsDiv
+{
+	width:100%;
+	float:left;
+}
+
+#dropDiv
+{
+	float:left;
+	margin:2% 2% 2% 5%;
+	border: 3px dashed #29C3FF;
+	width:30%;
+	height:300px;
+}
+#list
+{
+	margin-top:2%;
+	width:60%;
+	height:300px;
+	border: 3px dashed #AAAAAA;
+	float:left;
+}
+#dropDiv.hovering
+{
+	background-color: #FFCCFF;
+}
+.head
+{
+	height:40px;
+	background-color: #0099CC;
+	border-bottom-style: ridge;
+	border-bottom-width: 1px #999;
+}
+#workerJob, #wsMsg
+{
+	padding:2%;
+	width:20%;
+	height:50px;
+	margin: 2% 2% 2% 2%;
+	border: 3px solid #AAAAAA;
+	
+}
+#map_canvas
+{
+	margin:2%;
+	width: 90%; 
+	height: 500px;
+}
+footer
+{
+	text-align: center;
+}

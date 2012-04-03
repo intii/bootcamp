@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" href="css/myStyle.css" />
+	<script src="js/jqueryAndMobile.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDtWOO_ULoGOuYdCioMZWYAB_DoB44fV9A&sensor=false"></script> 
+	<script src="js/modernizr.js"></script>
+	<script src="js/yepnope.js"></script>
+	<meta charset="utf-8">
+	<title>HTML5 APIs</title>
+</head>
+<body>
+	<header data-role="header">
+		<h1>HTML5 APIs</h1>
+	</header>
+	<div id="content">
+		<header class="head">
+			<h1>Code Tester</h1>
+		</header>	
+		<textarea id="area">Put your script here...</textarea>
+		<a  data-role="button" data-icon="arrow-r" id="callButton">Call</a>
+	</div>	
+	<div id="dragdrop">
+		<header class="head">
+			<h1>Drag & Drop Files<h2>
+		</header>	
+		<div id="dropDiv">
+			 <h2>Drop your files here</h2>
+		</div>	
+		<output id="list"></output>
+	</div>	
+	<div id="geoloc">
+		<header class="head">
+			<h1>Geolocation</h1>
+		</header>
+		<div id="map_canvas">
+		</div>	
+	</div>	
+	<div id="workerDiv">
+		<header class="head">
+			<h1>Worker Job<h2>
+		</header>
+		<div id="workerJob"></div>		
+	</div>
+	<div id="wsDiv">
+		<header class="head">
+			<h1>Web Socket messages<h2>
+		</header>
+		<div id="wsMsg"></div>		
+	</div>	
+	<footer data-role="footer">
+		<p>HTML5 Bootcamp</p>
+	</footer>
+	<script src="scripts/script1.js"></script>
+</body>	
+</html>
