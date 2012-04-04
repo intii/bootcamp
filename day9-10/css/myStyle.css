@@ -1,10 +1,25 @@
+#list
+{
+	width: 40%;
+	float: left;
+}
 #detailDiv
 {
 	float:right;
+	width: 50%;
+	height: 150px;
+	border: solid 1px;
+	margin-right: 2%;
 }
 #container
 {
+	padding: 2%;
 	width: 70%;
 	margin-left:150px;
 	margin-right:150px;
+}
+#movieIn
+{
+	
+	width:60%;
 }
